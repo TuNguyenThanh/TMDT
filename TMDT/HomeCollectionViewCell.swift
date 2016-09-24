@@ -17,7 +17,7 @@ class HomeCollectionViewCell: BaseCollectionViewCell {
         return img
     }()
     
-    override func setupView(){
+    override func setup(){
         self.backgroundColor = UIColor.blue
         self.addSubview(imgView)
         

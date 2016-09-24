@@ -9,7 +9,7 @@
 import UIKit
 
 class Page4CollectionViewCell: BaseCollectionViewCell {
-    override func setupView() {
+    override func setup() {
         self.backgroundColor = UIColor.yellow
     }
 }
